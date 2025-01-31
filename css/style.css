@@ -2,7 +2,10 @@ body{
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
-    margin: 20px 20px 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 h1{
     font-size: 42px;
@@ -21,7 +24,7 @@ p{
 img {
     width: 250px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     border: 10px dashed #ffffff;
 }
 div {
@@ -38,19 +41,19 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
-    border-right: 3px solid red;
-    border-top: 3px solid red;
+    border-left: solid 5px;
+    border-bottom: solid 2px;
+    border-right: 0px;
+    border-top: 0px;
 }
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    border-left: 3px solid #0000ff;
-    border-bottom: 3px solid #0000ff;
+    border-right: solid 5px;
+    border-top:solid 2px;
+    border-left: 0px;
+    border-bottom: 0px;
 }
 .blue h2,
 .blue p {
@@ -60,10 +63,10 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
-    border-right: 3px solid #FFFF00;
-    border-top: 3px solid #FFFF00;
+    border-left: solid 5px;
+    border-bottom: solid 2px;
+    border-top: 0px;
+    border-right: 0px;
 }
 .yellow p {
     color: #707070;
@@ -72,10 +75,10 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    border-left: 3px solid #008500;;
-    border-bottom: 3px solid #008500;;
+    border-right: solid 5px;
+    border-top: solid 2px;
+    border-left: 0px;
+    border-bottom: 0px
 }
 footer {
     background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
